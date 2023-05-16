@@ -1,0 +1,35 @@
+Webservices:
+	São serviços Cliente e Servidor que nos fornecem a capacidade de integrar aplicações de diferentes dominios através de protocolos.
+	Mensagens são trafegadas através do protocolo HTTP
+		Tipos de mensagens: XML, JSON, SOAP e etc.
+	As vantagens são
+		Interoperabilidade
+		Baixo acomplamento
+		Extensibilidade
+		Escalabilidade
+		Alta disponibilidade
+SOAP:
+	Mantenedores do SOA é W3C e OASIS.
+	Soap é implementação da Arquitetura SOA.
+	Utiliza o protocolo HTTP com o método/verbo POST.
+	Atua sob o conceito de client/server ou provider/consumer.
+	Tipo de mensagem trafegada
+		XML (Extensible Markup Language)
+			Vantagens
+				Nos permite customizar a marcação de nosso documento.
+				Permite-nos enviar tanto dados quanto metadados.
+				Permite-nos criar regras de validação de dados enviados no documento antes de qualquer manipulação.
+			XSD (XML Schema Definition)
+				É manutenido pela W3CSchool.
+				É utilizado por arquivos xml para validação.
+				Serve para definição de elementos, atributos, namespaces, numeros de ocorrencias de um determinado elemento e restrições;
+				Tudo isso dentro do arquivo XML.
+	JAX-WS é convenção/padrão para implementação do SOAP em Java.
+	O contrato de comunicação SOAP é chamado de WSDL.
+RESTFull:
+	Restfull é implementação da Arquitetura REST.
+	Utiliza o protocolo HTTP e todos seus métodos/verbos.
+	Tipo de mensagem trafegada
+		 XML, JSON, Text, Chave-Valor e afins.
+	JAX-RS é a convenção/padrão para implementação do REST em Java.
+	O contrato de comunicação SOAP é chamado de WADL.

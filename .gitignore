@@ -1,17 +1,36 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+questions-jaxws-server/target/
+questions-jaxws-server/pom.xml.tag
+questions-jaxws-server/pom.xml.releaseBackup
+questions-jaxws-server/pom.xml.versionsBackup
+questions-jaxws-server/pom.xml.next
+questions-jaxws-server/release.properties
+questions-jaxws-server/dependency-reduced-pom.xml
+questions-jaxws-server/buildNumber.properties
+questions-jaxws-server/.mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+questions-jaxws-server/.mvn/wrapper/maven-wrapper.jar
 
 # Eclipse m2e generated files
 # Eclipse Core
-.project
+questions-jaxws-server/.project
 # JDT-specific (Eclipse Java Development Tools)
-.classpath
+questions-jaxws-server/.classpath
+
+
+questions-jaxws-client/target/
+questions-jaxws-client/pom.xml.tag
+questions-jaxws-client/pom.xml.releaseBackup
+questions-jaxws-client/pom.xml.versionsBackup
+questions-jaxws-client/pom.xml.next
+questions-jaxws-client/release.properties
+questions-jaxws-client/dependency-reduced-pom.xml
+questions-jaxws-client/buildNumber.properties
+questions-jaxws-client/.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+questions-jaxws-client/.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+questions-jaxws-client/.project
+# JDT-specific (Eclipse Java Development Tools)
+questions-jaxws-client/.classpath
